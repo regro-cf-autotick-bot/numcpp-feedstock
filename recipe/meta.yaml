@@ -10,7 +10,7 @@ source:
   sha256: f462ecd27126e6057b31fa38f1f72cef2c4223c9d848515412970714a5bb6d16
 
 build:
-  number: 0
+  number: 1
   skip: True  # [not unix]
 
 requirements:
@@ -19,7 +19,7 @@ requirements:
     - make
     - cmake >=3.14
   host:
-    - boost-cpp
+    - libboost-headers
   run:
     - bzip2
     - zlib
